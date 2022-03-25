@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "Enjoy 20e",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-enjoy-20e.jpg",
+      "price": 940
+    },
+    {
+      "id": 2,
+      "name": "P50 Pocket",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-p50-pocket.jpg",
+      "price": 540
+    },
+    {
+      "id": 3,
+      "name": "nova 8 SE 4G",
+      "img": "ttps://fdn2.gsmarena.com/vv/bigpic/huawei-watch-gt3-new.jpg",
+      "price": 1140
+    },
+    {
+      "id": 4,
+      "name": "nova Y60",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-y60.jpg",
+      "price": 730
+    },
+    {
+      "id": 5,
+      "name": "nova 9 Pro",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-9-pro-5g-.jpg",
+      "price": 580
+    },
+    {
+      "id": 6,
+      "name": "nova 9",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-9-5g.jpg",
+      "price": 800
+    },
+    {
+      "id": 7,
+      "name": "P50 Pro",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-p50-pro.jpg",
+      "price": 700
+    },
+    {
+      "id": 8,
+      "name": "nova 8",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8.jpg",
+      "price": 900
+    },
+    {
+      "id": 9,
+      "name": "nova 8 SE Youth",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-8-se-youth.jpg",
+      "price": 970
+    },
+    {
+      "id": 10,
+      "name": "P50",
+      "img": "https://fdn2.gsmarena.com/vv/bigpic/huawei-p50.jpg",
+      "price": 990
+    }
+  ]
