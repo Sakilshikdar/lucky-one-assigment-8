@@ -47,12 +47,11 @@ const Phones = () => {
             }
             </div>
             <div className='cart'>
-            <h1>Selects Phone</h1>
-            
-         {
+            <h1>Selects Phone</h1>  
+           {
             carts.map(cart => <Cart
-            key={cart.id}
-                cart = {cart}
+               key={cart.id}
+              cart = {cart}
                 >
                 </Cart>)
             }
