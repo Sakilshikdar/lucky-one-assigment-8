@@ -7,6 +7,7 @@ const Phone = (props) => {
     const {phone, handleAdd} =props
     const {img, name, price} = phone
     return (
+        <div>
         <div className='phone'>
             <img src={img} alt="" />
             <h2>Name: {name}</h2>
@@ -15,6 +16,8 @@ const Phone = (props) => {
             <FontAwesomeIcon className='icon' icon={faShoppingCart}></FontAwesomeIcon>
             </button>
         </div>
+    </div>
+        
         
     );
 };

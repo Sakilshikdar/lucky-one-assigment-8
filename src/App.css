@@ -27,6 +27,15 @@
 .App-link {
   color: #61dafb;
 }
+.p-react {
+  border: 1px solid aquamarine;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: rgb(240, 232, 227);
+  border-radius: 10px;
+  padding: 10px;
+}
 
 @keyframes App-logo-spin {
   from {
