@@ -56,7 +56,8 @@ const Phones = () => {
                 >
                 </Cart>)
             }
-             <button onClick={randomCart}>CHOOSE 1 FOR ME</button>
+             <button
+              onClick={randomCart}>CHOOSE 1 FOR ME</button>
              <br /> 
             <button onClick={resetBtn}>CHOOSE AGAIN</button>
             </div>

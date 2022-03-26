@@ -4,7 +4,6 @@ const Cart = ({cart}) => {
     const{name,img} = cart;
     return (
         <div className='phone-style'>
-            
             <img src={img} alt="" />
             <p>{name}</p>
         </div>
