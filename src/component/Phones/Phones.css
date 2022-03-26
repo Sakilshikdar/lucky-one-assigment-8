@@ -1,4 +1,16 @@
 .phones-style{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:4fr 1fr;
+   
+}
+.singlePhone{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 20px;
+    
+}
+.cart{
+    background-color: rgb(233, 241, 241);
+    height: 25%;
+    border-radius: 20px;
 }
