@@ -13,16 +13,28 @@ const Phones = () => {
     } ,[])
    
     const handleAdd = (phone) =>{
-        // const phones = [phone]
-        console.log(phones);
-         const findItem = carts.find(p => p == phone)
-         if(!findItem){
-            const newCart = [...carts, phone]
-            setCart(newCart)
-         }
-        } 
+        if(carts.length >5){
+            console.log('length is big')
+        }
+        else{
+            
+            const findItem = carts.find(p => p == phone)
+            if(!findItem){
+                const newCart = [...carts, phone]
+                setCart(newCart)
+        }
+        }
+    }
+        
     const resetBtn = () => {
         setCart([])
+    }
+    const randomCart =() =>{
+        let value = 0;
+        if(carts.length !== 0){
+            value = Math.round(Math.random() * carts.length)
+            console.log(value);
+        }
     }
     return (
         <div className='phones-style'>
@@ -44,7 +56,7 @@ const Phones = () => {
                 >
                 </Cart>)
             }
-             <button >CHOOSE 1 FOR ME</button>
+             <button onClick={randomCart()}>CHOOSE 1 FOR ME</button>
              <br /> 
             <button onClick={()=>resetBtn()}>CHOOSE AGAIN</button>
             </div>
